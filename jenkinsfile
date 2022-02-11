@@ -1,5 +1,8 @@
 pipeline{
     agent any
+    	environment {
+		notifyEmail ="raviiish.bagasi@nagarro.com"
+	}
     tools{
         maven 'Maven'
     }
